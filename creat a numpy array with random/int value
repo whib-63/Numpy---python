@@ -1,0 +1,16 @@
+#creat a numpy array with random value
+a = np.random.random((3,4))
+print (a)
+
+#create a numpy array with int value
+b = np.random.randint(10,100,(3,4))
+print(b)
+
+#array of evenly spaced ___specifying the number of value required
+c = np.linspace(10,30,6)
+print(c)
+
+#array of evenly spaced ___specifying the step
+d = np.arange(10,30,5)
+print(d)
+
