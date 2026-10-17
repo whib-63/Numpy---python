@@ -1,0 +1,7 @@
+w = np.random.randint(20,100,(5,5))
+print (w)
+
+print(w.shape) #array dimensions
+print(w.ndim) # num of dimensions
+print(w.size) # num of elements in array
+print(w.dtype) # data type checking
