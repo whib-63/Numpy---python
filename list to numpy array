@@ -1,0 +1,7 @@
+list2= [10,20,"Whib"]
+num = np.asarray(list2)
+print(num)
+type(num)
+
+op: ['10' '20' 'Whib']
+numpy.ndarray
