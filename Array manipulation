@@ -1,0 +1,21 @@
+arr = np.random.randint(0,10,(2,3))
+print(arr)
+print(arr.shape)
+
+#transpose
+trans = np.transpose(arr)
+print(trans)
+print(trans.shape)
+
+trans2 = arr.T  # another way of transpose
+print(trans2)
+print(trans2.shape)
+
+#Reshaping array
+a = np.random.randint(0,10,(2,3))
+print(a)
+print(a.shape)
+
+b=a.reshape(3,2)
+print(b)
+print(b.shape)
