@@ -1,0 +1,15 @@
+#create a numpy array of zeros
+x = np.zeros((4,5))
+print(x)
+
+#create a numpy array of zeros
+x = np.ones((4,5))
+print(x)
+
+#array of a particular value
+y = np.full((4,4),5)
+print(y)
+
+#identity matrix
+z = np.eye(3)
+print(z)
